@@ -1,7 +1,8 @@
 import React from "react";
+import * as Breact from "breact";
 
 export function BobrilReactIntagration() {
 	return (
-		<div>BReact!</div>
+		<div>{Breact.breact}</div>
 	);
 }
