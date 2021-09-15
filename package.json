@@ -4,7 +4,9 @@
   "description": "React wrapper for Bobril",
   "main": "src/main.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "tswatch": "tsc --watch"
   },
   "keywords": [
     "React",
@@ -12,5 +14,15 @@
     "integration"
   ],
   "author": "r.sedlak@quadient.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-jss": "^10.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  },
+  "packageManager": "yarn@3.0.1"
 }
