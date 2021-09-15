@@ -1,0 +1,16 @@
+{
+  "name": "brapper",
+  "version": "0.0.0",
+  "description": "React wrapper for Bobril",
+  "main": "src/main.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Bobril",
+    "integration"
+  ],
+  "author": "r.sedlak@quadient.com",
+  "license": "ISC"
+}
